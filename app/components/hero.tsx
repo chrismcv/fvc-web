@@ -47,46 +47,10 @@ export default function Hero() {
           </div>
         </div> 
       </div> */}
+      </div>
 
       {/* Service info cards */}
-      <div className="bg-background py-12">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Card className="border-2 border-secondary/20 shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-6 text-center">
-                <Calendar className="w-12 h-12 mx-auto mb-4 text-primary" />
-                <h3 className="text-xl font-heading font-bold text-text-primary mb-2">Every Sunday</h3>
-                <p className="text-text-light">Join us for weekly worship and fellowship</p>
-              </CardContent>
-            </Card>
 
-            <Card className="border-2 border-secondary/20 shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-6 text-center">
-                <Clock className="w-12 h-12 mx-auto mb-4 text-primary" />
-                <h3 className="text-xl font-heading font-bold text-text-primary mb-2">10:00 AM</h3>
-                <p className="text-text-light">Coffee from 10:00 AM, Service starts at 10:15 AM</p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-2 border-secondary/20 shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-6 text-center">
-                <MapPin className="w-12 h-12 mx-auto mb-4 text-primary" />
-                <h3 className="text-xl font-heading font-bold text-text-primary mb-2">Comber</h3>
-                <p className="text-text-light">
-                  <a
-                    href="https://www.ardsandnorthdown.gov.uk/article/2210/Comber-Community-Centre"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary hover:text-primary/80 underline"
-                  >
-                    Comber Community Centre
-                  </a>
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </div>
     </section>
   )
 }

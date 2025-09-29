@@ -33,7 +33,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-       {/* Our Story Section */}
+      {/* Our Story Section */}
       <section id="story" className="py-16 lg:py-24 bg-white">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -45,7 +45,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-         
+
 
           {/* Trevor and Katie's Story */}
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -76,8 +76,11 @@ export default function AboutPage() {
 
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-xl">
-               <iframe title="vimeo-player" src="https://player.vimeo.com/video/1122997990?h=7d3d25d028" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
-               
+                <img
+                  src="/images/katie-and-trevor.jpeg"
+                  alt="Family of Faith - people gathering together"
+                  className="w-full h-auto object-cover"
+                />
               </div>
             </div>
           </div>
@@ -103,7 +106,7 @@ export default function AboutPage() {
       {/* Vision Pillars */}
       <section id="vision" className="py-16 lg:py-24 bg-gradient-to-b from-background to-warm-gray">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        
+
           <div className="space-y-24">
             {/* Family of Faith */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -125,7 +128,7 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="rounded-2xl overflow-hidden shadow-xl">
                   <img
-                    src="/placeholder.svg?height=400&width=600&text=Family+of+Faith"
+                    src="/images/worship.jpeg"
                     alt="Family of Faith - people gathering together"
                     className="w-full h-auto object-cover"
                   />
@@ -156,7 +159,7 @@ export default function AboutPage() {
               <div className="relative lg:order-1">
                 <div className="rounded-2xl overflow-hidden shadow-xl">
                   <img
-                    src="/placeholder.svg?height=400&width=600&text=Living+by+Faith"
+                    src="/images/fvc-image-1.jpg"
                     alt="Living by Faith - praying hands"
                     className="w-full h-auto object-cover"
                   />
@@ -182,7 +185,7 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="rounded-2xl overflow-hidden shadow-xl">
                   <img
-                    src="/placeholder.svg?height=400&width=600&text=Rooted+in+Faith"
+                    src="/images/kids.jpeg"
                     alt="Rooted in Faith - deep roots"
                     className="w-full h-auto object-cover"
                   />
@@ -193,7 +196,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-     
+
 
       {/* Vineyard Affiliation Section */}
       <section className="py-16 lg:py-24 bg-gradient-to-br from-warm-gray via-background to-accent-light/10">
@@ -269,7 +272,7 @@ export default function AboutPage() {
 
           <Card className="bg-white/80 backdrop-blur-sm border-2 border-light-gray/50 rounded-2xl">
             <CardContent className="p-8 lg:p-12">
-              
+
 
               <div className="text-center">
                 <p className="font-body text-text-light leading-relaxed mb-6">
@@ -296,9 +299,9 @@ export default function AboutPage() {
         </div>
       </section>
 
-    
 
-      
+
+
     </main>
   )
 }

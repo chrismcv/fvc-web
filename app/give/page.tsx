@@ -96,27 +96,27 @@ export default function GivePage() {
           </h1>
           <div className="w-16 h-1 bg-accent rounded-full mx-auto mb-8"></div>
           <p className="font-body text-xl text-text-light max-w-3xl mx-auto leading-relaxed">
-           In giving we say thank you for all that God has done for us, we practice generosity and we partner with God in all that He is doing in and through our community, supporting programmes and projects both here in Belfast and across the globe. The most effective way to give is to set up a regular donation through your own bank or securely through our online giving below. You can also give a one off gift in the same manner.
+            In giving we say thank you for all that God has done for us, we practice generosity and we partner with God in all that He is doing in and through our community, supporting programmes and projects both here in Belfast and across the globe. The most effective way to give is to set up a regular donation through your own bank or securely through our online giving below. You can also give a one off gift in the same manner.
 
 
           </p>
           <p className="font-body text-xl text-text-light max-w-3xl mx-auto leading-relaxed">
-          As a recently established church, our planting church, Belfast City Vineyard is managing our giving at the moment. Belfast City Vineyard is registered charity we are able to claim tax back from the government through the gift aid scheme, adding a further 25p to every £1 given. If you are a UK tax payer please consider maximising your donation in this way. If you have any questions about giving or finances at Faith Vineyard Church please feel free to contact us on
+            As a recently established church, our planting church, Belfast City Vineyard is managing our giving at the moment. Belfast City Vineyard is registered charity we are able to claim tax back from the government through the gift aid scheme, adding a further 25p to every £1 given. If you are a UK tax payer please consider maximising your donation in this way. If you have any questions about giving or finances at Faith Vineyard Church please feel free to contact us on
           </p>
 
-                    <p className="font-body text-xl text-text-light max-w-3xl mx-auto leading-relaxed">
-If you would like to donate now, please click this link to our planting church, Belfast City Vineyard, and select "Faith Vineyard Church" from the "Fund" dropdown menu. If you have any questions, please reach out via the contact page.
-
-<p className="text-xl text-center mt-10">
-<a className="bg-primary text-white rounded-full p-6" href="https://bcv.churchsuite.com/donate">Donate Now</a>
-   </p>       
+          <p className="font-body text-xl text-text-light max-w-3xl mx-auto leading-relaxed">
+            If you would like to donate now, please click this link to our planting church, Belfast City Vineyard, and select "Faith Vineyard Church" from the "Fund" dropdown menu. If you have any questions, please reach out via the contact page.
+          </p>
+          <p className="text-xl text-center mt-10">
+            <a className="bg-primary text-white rounded-full p-6" href="https://bcv.churchsuite.com/donate">Donate Now</a>
+          </p>
         </div>
       </section>
 
-  
 
-     
-     
+
+
+
 
     </main>
   )

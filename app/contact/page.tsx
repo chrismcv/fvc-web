@@ -10,11 +10,11 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="bg-primary text-white py-20">
+      <section className="bg-secondary-dark text-white py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="font-headline text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">Get in Touch</h1>
-            <p className="font-body text-xl text-white/90 max-w-2xl mx-auto">
+            <p className="font-body text-xl text-white/80 max-w-2xl mx-auto">
               We'd love to hear from you! Whether you have questions, want to visit, or just want to say hello.
             </p>
           </div>
