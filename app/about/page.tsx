@@ -52,7 +52,7 @@ export default function AboutPage() {
             <div>
               <h3 className="font-headline text-2xl font-bold text-primary mb-6">Trevor & Katie Wilson</h3>
 
-              <div className="space-y-6 font-headline text-lg text-text-light leading-relaxed">
+              <div className="space-y-6 font-body text-lg text-text-light leading-relaxed">
                 <p>
                   Trevor and Katie Wilson were part of Belfast City Vineyard Church for many years, where they were both
                   part of the leadership team and Katie was Children's Pastor. They always had a dream in their hearts
@@ -94,7 +94,7 @@ export default function AboutPage() {
           <div className="w-16 h-1 bg-accent rounded-full mx-auto mb-8"></div>
 
           <div className="bg-gradient-to-br from-primary/5 to-accent/5 border-2 border-light-gray/50 rounded-2xl p-8 lg:p-12">
-            <p className="font-headline text-lg text-text-light leading-relaxed">
+            <p className="font-body text-lg text-text-light leading-relaxed">
               Faith Vineyard Church exists to be a worshipping community in Comber / Ards that welcomes people in and
               introduces them to life-changing faith in Jesus. We want to see the people of this area encounter God in a
               way that is transformational in hearts, homes and throughout the community.
@@ -112,7 +112,7 @@ export default function AboutPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="font-headline text-2xl sm:text-3xl font-bold text-primary mb-6">Family of Faith</h3>
-                <p className="font-headline text-lg text-text-light leading-relaxed">
+                <p className="font-body text-lg text-text-light leading-relaxed">
                   To help us live a life of faith we want to prioritise spending time with God and finding people to
                   come alongside and walk through life with. We are a multigenerational family where everybody gets to
                   play. We want to do life together in a way that allows us all to grow in faith as we centre our lives
@@ -145,7 +145,7 @@ export default function AboutPage() {
                     "For we live by faith, not by sight." - 2 Corinthians 5:7
                   </p>
                 </div>
-                <p className="font-headline text-lg text-text-light leading-relaxed">
+                <p className="font-body text-lg text-text-light leading-relaxed">
                   We want to be a community who look at people, places and situations through eyes of faith. We believe
                   that he has planted us here in Comber for a purpose. As we worship here we believe that the atmosphere
                   in this place will change. God has something amazing for this area and we want to step into that with
@@ -171,7 +171,7 @@ export default function AboutPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="font-headline text-2xl sm:text-3xl font-bold text-primary mb-6">Rooted in Faith</h3>
-                <p className="font-headline text-lg text-text-light leading-relaxed">
+                <p className="font-body text-lg text-text-light leading-relaxed">
                   We know that faith transforms us. When we are spiritually rooted in Christ, we become firmly grounded
                   in our faith. We want to be a church where through discipleship and friendship, our faith is formed
                   and rooted deeply. We need the power of God to be active in our lives, keeping us grounded in the
