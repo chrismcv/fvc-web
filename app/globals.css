@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #fff5e2;
+    --foreground: #1b4965;
+    --card: #ffffff;
+    --card-foreground: #1b4965;
+    --popover: #ffffff;
+    --popover-foreground: #1b4965;
+    --primary: #1b4965;
+    --primary-foreground: #ffffff;
+    --secondary: #62b6cb;
+    --secondary-foreground: #ffffff;
+    --muted: #fef7e8;
+    --muted-foreground: #4ea3b8;
+    --accent: #ffb703;
+    --accent-foreground: #ffffff;
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    --border: #e1e8f0;
+    --input: #e1e8f0;
+    --ring: #62b6cb;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply text-foreground font-body;
+    background: #fff5e2;
+    min-height: 100vh;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Headline font styling */
+  .font-headline, .font-heading {
+    font-family: "Bitter", serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  /* Body font styling */
+  .font-body {
+    font-family: "Inter", sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  .bg-background-warm {
+     background: var(--background);
+  }
+}
+
+/* Custom scrollbar with new color scheme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background-warm;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-secondary/60 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-secondary;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+.focus-visible:focus {
+  @apply outline-none ring-2 ring-secondary ring-offset-2 ring-offset-background;
+}
+
+/* Organic button hover effects */
+@layer components {
+  .btn-organic {
+    @apply transition-all duration-300 ease-out transform hover:scale-105 hover:shadow-lg;
+  }
+
+  .card-organic {
+    @apply transition-all duration-300 ease-out hover:shadow-xl hover:-translate-y-1;
+  }
+}
+
+/* Text selection styling */
+::selection {
+  @apply bg-secondary/30 text-primary;
+}
+
+/* Improved readability */
+p,
+li,
+span {
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
