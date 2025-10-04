@@ -32,17 +32,16 @@ export default function GatheringsPage() {
                   <Clock className="w-8 h-8 text-white" />
                 </div>
                 <div>
-                  <h2 className="font-headline text-2xl font-bold text-primary">Service Times</h2>
+                  <h2 className="font-headline text-2xl font-bold text-primary">What Times</h2>
                 </div>
               </div>
               <div className="space-y-3">
                 <p className="font-body text-lg text-text-light">
-                  <strong className="text-primary">10:00 AM</strong> - Coffee and fellowship
+                  <strong className="text-primary">10:30 AM</strong> Start
                 </p>
                 <p className="font-body text-lg text-text-light">
-                  <strong className="text-primary">10:15 AM</strong> - Service begins
+                  Coffee and donuts will be served from 10:15AM
                 </p>
-                <p className="font-body text-base text-text-muted italic">Services typically run until 11:30 AM</p>
               </div>
             </div>
 
@@ -52,7 +51,7 @@ export default function GatheringsPage() {
                   <MapPin className="w-8 h-8 text-white" />
                 </div>
                 <div>
-                  <h2 className="font-headline text-2xl font-bold text-primary">Location</h2>
+                  <h2 className="font-headline text-2xl font-bold text-primary">Where</h2>
                 </div>
               </div>
               <div className="space-y-3">

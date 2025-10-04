@@ -36,15 +36,6 @@ export default function AboutPage() {
       {/* Our Story Section */}
       <section id="story" className="py-16 lg:py-24 bg-white">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="font-headline text-3xl sm:text-4xl font-bold text-primary mb-6">Our Story</h2>
-            <div className="w-16 h-1 bg-accent rounded-full mx-auto mb-8"></div>
-            <p className="font-headline text-lg text-text-light max-w-2xl mx-auto leading-relaxed">
-              Hello! Faith Vineyard is a new church in Comber, County Down! We love this part of the world and we are so
-              excited to be on this adventure!
-            </p>
-          </div>
-
 
 
           {/* Trevor and Katie's Story */}
@@ -128,7 +119,7 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="rounded-2xl overflow-hidden shadow-xl">
                   <img
-                    src="/images/worship.jpeg"
+                    src="/images/team.jpeg"
                     alt="Family of Faith - people gathering together"
                     className="w-full h-auto object-cover"
                   />

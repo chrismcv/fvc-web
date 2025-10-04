@@ -42,10 +42,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-headline text-xl font-bold text-primary mb-2">Email Us</h3>
                     <a
-                      href="mailto:info@faithvineyard.com"
+                      href="mailto:hello@faithvineyard.com"
                       className="font-body text-lg text-text-light hover:text-primary transition-colors"
                     >
-                      info@faithvineyard.com
+                      hello@faithvineyard.com
                     </a>
                   </div>
                 </div>
