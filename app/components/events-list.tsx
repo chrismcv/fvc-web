@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { getEvents, fallbackEvents, type NotionEvent } from "@/lib/notion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Calendar, MapPin, Users } from "lucide-react"
@@ -31,11 +32,13 @@ function EventCard({ event }: { event: NotionEvent }) {
     <Card className="hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white/80 backdrop-blur-sm border-2 border-light-gray/50 rounded-2xl overflow-hidden group">
       <CardContent className="p-0">
         {event.image && (
-          <div className="h-48 bg-gradient-to-br from-warm-gray to-accent/10 overflow-hidden">
-            <img
+          <div className="relative h-48 bg-gradient-to-br from-warm-gray to-accent/10 overflow-hidden">
+            <Image
               src={event.image || "/placeholder.svg"}
               alt={event.title}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              fill
+              className="object-cover transition-transform duration-300 group-hover:scale-105"
+              sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
             />
           </div>
         )}

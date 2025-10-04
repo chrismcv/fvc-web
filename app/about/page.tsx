@@ -1,7 +1,8 @@
 import type { Metadata } from "next"
+import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Heart, Users, ExternalLink, BookOpen, Play } from "lucide-react"
+import { ExternalLink } from "lucide-react"
 import Link from "next/link"
 
 export const metadata: Metadata = {
@@ -67,10 +68,13 @@ export default function AboutPage() {
 
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-xl">
-                <img
+                <Image
                   src="/images/katie-and-trevor.jpeg"
                   alt="Family of Faith - people gathering together"
                   className="w-full h-auto object-cover"
+                  width={1600}
+                  height={1200}
+                  sizes="(min-width: 1024px) 50vw, 100vw"
                 />
               </div>
             </div>
@@ -118,10 +122,13 @@ export default function AboutPage() {
 
               <div className="relative">
                 <div className="rounded-2xl overflow-hidden shadow-xl">
-                  <img
+                  <Image
                     src="/images/team.jpeg"
                     alt="Family of Faith - people gathering together"
                     className="w-full h-auto object-cover"
+                    width={1600}
+                    height={1200}
+                    sizes="(min-width: 1024px) 50vw, 100vw"
                   />
                 </div>
               </div>
@@ -149,10 +156,13 @@ export default function AboutPage() {
 
               <div className="relative lg:order-1">
                 <div className="rounded-2xl overflow-hidden shadow-xl">
-                  <img
+                  <Image
                     src="/images/fvc-image-1.jpg"
                     alt="Living by Faith - praying hands"
                     className="w-full h-auto object-cover"
+                    width={2736}
+                    height={3648}
+                    sizes="(min-width: 1024px) 50vw, 100vw"
                   />
                 </div>
               </div>
@@ -175,10 +185,13 @@ export default function AboutPage() {
 
               <div className="relative">
                 <div className="rounded-2xl overflow-hidden shadow-xl">
-                  <img
+                  <Image
                     src="/images/kids.jpeg"
                     alt="Rooted in Faith - deep roots"
                     className="w-full h-auto object-cover"
+                    width={1199}
+                    height={1256}
+                    sizes="(min-width: 1024px) 50vw, 100vw"
                   />
                 </div>
               </div>

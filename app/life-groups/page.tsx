@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Image from "next/image"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import { Card, CardContent } from "@/components/ui/card"
@@ -110,11 +111,13 @@ export default function LifeGroupsPage() {
             <div className="relative">
               <Card className="bg-gradient-to-br from-warm-gray/30 to-accent/10 border-2 border-light-gray/50 rounded-2xl overflow-hidden">
                 <CardContent className="p-8">
-                  <div className="aspect-video bg-gradient-to-br from-secondary/20 to-primary/20 rounded-xl mb-6 flex items-center justify-center">
-                    <img
+                  <div className="relative aspect-video bg-gradient-to-br from-secondary/20 to-primary/20 rounded-xl mb-6 overflow-hidden">
+                    <Image
                       src="/placeholder.svg?height=300&width=400&text=Life+Group+Meeting"
                       alt="Life Group meeting in a home setting"
-                      className="w-full h-full object-cover rounded-xl"
+                      fill
+                      className="object-cover"
+                      sizes="(min-width: 1024px) 50vw, 100vw"
                     />
                   </div>
                   <blockquote className="font-body text-text-light italic text-center">
@@ -142,9 +145,9 @@ export default function LifeGroupsPage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {groupTypes.map((group, index) => (
+            {groupTypes.map((group) => (
               <Card
-                key={index}
+                key={group.title}
                 className="hover:shadow-xl transition-all transform hover:-translate-y-2 bg-white border-2 border-light-gray/50 rounded-2xl group"
               >
                 <CardContent className="p-8">
@@ -162,8 +165,8 @@ export default function LifeGroupsPage() {
                   <p className="font-body text-text-light leading-relaxed mb-6">{group.description}</p>
 
                   <ul className="space-y-3">
-                    {group.details.map((detail, detailIndex) => (
-                      <li key={detailIndex} className="flex items-start font-body text-sm text-text-light">
+                    {group.details.map((detail) => (
+                      <li key={detail} className="flex items-start font-body text-sm text-text-light">
                         <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
                         <span>{detail}</span>
                       </li>
